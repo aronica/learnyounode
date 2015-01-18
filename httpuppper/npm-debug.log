@@ -1,0 +1,81 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'erver' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'erver', null ]
+6 verbose cache add name=undefined spec="erver" args=["erver",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'erver',
+7 verbose parsed url   path: 'erver',
+7 verbose parsed url   href: 'erver' }
+8 silly lockFile 131a3d21-erver erver
+9 verbose lock erver /root/.npm/131a3d21-erver.lock
+10 silly lockFile 131a3d21-erver erver
+11 silly lockFile 131a3d21-erver erver
+12 verbose addNamed [ 'erver', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile df626bef-erver erver@
+15 verbose lock erver@ /root/.npm/df626bef-erver.lock
+16 silly addNameRange { name: 'erver', range: '*', hasData: false }
+17 verbose request where is /erver
+18 verbose request registry http://registry.npmjs.org/
+19 verbose request id 14e2ab357bb78345
+20 verbose url raw /erver
+21 verbose url resolving [ 'http://registry.npmjs.org/', './erver' ]
+22 verbose url resolved http://registry.npmjs.org/erver
+23 verbose request where is http://registry.npmjs.org/erver
+24 info trying registry request attempt 1 at 16:21:30
+25 http GET http://registry.npmjs.org/erver
+26 http 404 http://registry.npmjs.org/erver
+27 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '52',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   date: 'Sun, 18 Jan 2015 08:21:30 GMT',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   connection: 'keep-alive',
+27 verbose headers   'x-served-by': 'cache-ty66-TYO',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1421569290.718887,VS0,VE119' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '52',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Sun, 18 Jan 2015 08:21:30 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1421569290.718887,VS0,VE119' } ]
+29 silly lockFile df626bef-erver erver@
+30 silly lockFile df626bef-erver erver@
+31 error 404 404 Not Found: erver
+31 error 404
+31 error 404 'erver' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Linux 3.2.0-29-generic
+33 error command "/usr/bin/node" "/usr/bin/npm" "install" "erver"
+34 error cwd /usr/local/boot/node/httpuppper
+35 error node -v v0.10.35
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]
